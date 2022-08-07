@@ -20,6 +20,7 @@ body {
     color: black;
 }
 
+
   /* Headings */
   
   .section-heading {
@@ -73,9 +74,9 @@ body {
     .softDev{
         font-family: 'Electrolize', sans-serif;
         padding-left: 1000px;
-        transform: rotate(-10deg);
         transition-delay: 4s;
         position: relative;
+        right: 575px;
         top: -40px;
     }
     .mission{
@@ -85,11 +86,11 @@ body {
         color: #b0bbdc;
         margin-top: 0%;
         position: relative;
-        top: -50px;
+        top: -35px;
     }
     .contacts{
         position: relative;
-        top: -40px;
+        top: -30px;
     }
     .col{
         font-size: 20px;
@@ -105,9 +106,9 @@ body {
     }
   
   .big-heading {
-    margin: 130px 220px 130px 290px;
-    width: 45ch;
+    margin: 50px 0px 50px 200px;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 35ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -137,7 +138,7 @@ body {
   animation: slam 1s;
   animation-timing-function: ease-in;
   color: black;
-  width: 18ch;
+  width: 15ch;
   display: block;
   font-size: 1.5em;
   position: relative;
