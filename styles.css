@@ -2,6 +2,7 @@
 body {
     font-family: "Montserrat";
     text-align: center;
+    background-color: #b0bbdc;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -52,12 +53,8 @@ body {
     font-family: "Montserrat-Light";
   }
 /* Title Section */
-  #me {
-    color: #5275de;
-  }
+
   #title {
-    background-color: #b0bbdc;
-    color: rgb(51, 16, 175); 
     text-align: left;
   }
   #title .container-fluid {
@@ -72,7 +69,7 @@ body {
     .welcome {
         position: absolute;
         width: 100%;
-        background-color: rgb(87, 87, 124);
+        background-color: #7d88a9;
     }
     .softDev{
         font-family: 'Electrolize', sans-serif;
@@ -82,6 +79,18 @@ body {
         position: relative;
         top: -40px;
     }
+    .mission{
+        text-align: center;
+        margin: 0px 20%;
+        font-size: 25px;
+        color: #b0bbdc;
+        margin-top: 0%;
+        position: relative;
+        top: -50px;
+    }
+
+
+
     /* Responsive Type Effect */
     .wrapper {
         height: 100vh;
