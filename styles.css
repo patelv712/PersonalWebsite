@@ -42,19 +42,23 @@ body {
   }
   
   .nav-item {
-    padding: 0 18px;
+    padding: 0 1.8%;
   }
   
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
   }
+  .laptop{
+    position: relative;
+    right: 2%;
+  }
 /* Title Section */
   #title {
     text-align: left;
   }
   #title .container-fluid {
-    padding: 10px 7% 10px;
+    padding: 1% 7% 1%;
   }
   .title-image {
     width: 60%;
@@ -68,59 +72,55 @@ body {
     }
     .softDev{
         font-family: 'Electrolize', sans-serif;
-        padding-left: 1000px;
         transition-delay: 4s;
         position: relative;
-        right: 575px;
-        top: -40px;
+        width: 30ch;
+        left: 38%;
+        top: -6%;
     }
     .mission{
         text-align: center;
-        margin: 0px 20%;
-        font-size: 25px;
+        margin: 0% 20%;
+        font-size: 1.5em;
         color: #b0bbdc;
         margin-top: 0%;
         position: relative;
-        top: -35px;
+        top: -3.5%;
     }
     .contacts{
         position: relative;
-        top: -30px;
+        top: -3%;
     }
-    .col{
-        font-size: 20px;
+    .colC{
+        font-size: 1.5em;
     }
     /* Technologies Section */
     .technologies{
       background-color: #7d88a9;
-      padding-top: 10px;
-      padding-bottom: 40px;
+      padding-top: 2%;
+      padding-bottom: 5%;
     }
     .title-section{
       transform: rotate(-10deg);
       background-color:#626c8c;
-      font-size: 45px;
-      padding: 0px;
+      font-size: 3rem;
+      padding: 0%;
       width: 10ch;
       right: 35%;
       position: relative;
       font-family: 'Electrolize', sans-serif;
     }
     .icons {
-      margin: 0px 175px 0px 175px;
+      margin: 0% 15% 0% 15%;
     }
     .icon-size{
       color: #b0bbdc;
       font-size: 100px;
-      margin: 25px;
+      margin: 0.2em;
     }
     /* Experience Section */
     .experience{
       margin-top: 5%;
-    }
-    #experiences{
-      position: relative;
-      top: 1000px;
     }
     .job{ 
       background-color: #7d88a9;
@@ -128,7 +128,7 @@ body {
       margin: 3%;
       width: 60%;
       border-radius: 25px;
-      padding: 0px 0px 0px 3%;
+      padding: 0% 0% 0% 3%;
     }
     #titleJ{
       text-align: left;
@@ -162,9 +162,9 @@ body {
     }
   
   .big-heading {
-    margin: 50px 0px 50px 200px;
+    margin: 5% 0% 5% 20%;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    width: 35ch;
+    width: 41ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
