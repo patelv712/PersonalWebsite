@@ -5,9 +5,6 @@ body {
     background-color: #b0bbdc;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat-Bold";
-  }
   a {
     color: inherit;
   }
@@ -62,12 +59,11 @@ body {
   }
   .title-image {
     width: 60%;
-    position: absolute;
     right: 30%;
   }
     /* Welcome Section */
     .welcome {
-        position: absolute;
+        z-index: 4;
         width: 100%;
         background-color: #7d88a9;
     }
@@ -95,8 +91,34 @@ body {
     .col{
         font-size: 20px;
     }
-
-
+    /* Technologies Section */
+    .technologies{
+      background-color: #7d88a9;
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
+    .title-section{
+      transform: rotate(-10deg);
+      background-color:#626c8c;
+      font-size: 45px;
+      padding: 0px;
+      width: 10ch;
+      position: relative;
+      right: 500px;
+      font-family: 'Electrolize', sans-serif;
+    }
+    .icons {
+      margin: 0px 200px 0px 200px;
+    }
+    .icon-size{
+      color: #b0bbdc;
+      font-size: 100px;
+      margin: 25px;
+    }
+    /* Experience Section */
+    .experience{
+      margin-top: 40px;
+    }
     /* Responsive Type Effect */
     .wrapper {
         height: 100vh;
