@@ -75,7 +75,7 @@
           <div class = "row contacts">
             <div class = "col col-sm-3"></div>
             <div class = "col col-sm-2"> 
-              <a href="https://www.linkedin.com/in/varunpatel712/">
+              <a href="https://www.linkedin.com/in/varunpatel712/" target = "_blank">
                 <i class="fa-brands fa-linkedin fa-4x"></i> 
                 <br>
                 LinkedIn
@@ -89,7 +89,7 @@
               </a>
             </div>
             <div class = "col col-sm-2"> 
-              <a href="https://github.com/patelv712">
+              <a href="https://github.com/patelv712" target = "_blank">
                 <i class="fa-brands fa-github fa-4x"></i> 
                 <br> 
                 Github
@@ -103,11 +103,39 @@
     </section>
     <section class = "experience">
       <div class = "container-fluid title-section">
-        <h1>EXPERIENCE</h1>
+        <p id = "exp">EXPERIENCE</p>
       </div>
-      <div id = "datascan" class = "job container-fluid"></div>
-      <div id = "gtpe" class = "job container-fluid"></div>
-      <div id = "code-ninjas" class = "job container-fluid"></div>
+      <div class = "experiences">
+        <div id = "datascan" class = "job container-fluid">
+          <p id="titleJ"><strong>DataScan</strong> - <em>Software Developer Intern</em></p>
+          <p id = "dates">June 2022 - August 2022</p>
+          <ul id="resume">
+            <li>Utilized Selenium WebDriver to optimize DAS application loading page by 30s and create UI test coverage</li>
+            <li>Worked with Kubernetes/Kubectl, Jenkins, and Octopus Deployment to check config maps and secrets objects by execing into running pods to ensure concealment of cleartext fields.</li>
+            <li>Worked with Docker and Amazon ECR to orchestrate containers to resolve issues with service Swagger page.</li>
+          </ul>
+        </div>
+        <div id = "gtpe" class = "job right container-fluid">
+          <p id="titleJ"><strong>GTPE</strong> - <em>Assistant Application Developer</em></p>
+          <p id = "dates">December 2021 - May 2022</p>
+          <ul id = "resume">
+            <li>Utilized Powershell to create bash scripts to organize GTPE File Directories</li>
+            <li>Worked with PowerApps to create employee onboarding application</li>
+            <li>Updated and helped create an application matrix through Sharepoint and Teams</li>
+            <li>Participated in daily Kanban standups and Agile workflows</li>
+          </ul>
+        </div>
+        <div id = "code-ninjas" class = "job container-fluid">
+          <p id="titleJ"><strong>Code Ninjas</strong> - <em>Code Sensei (Tutor)</em></p>
+          <p id = "dates">November 2019 - August 2021</p>
+          <ul id="resume">
+            <li>Created + taught weekly Python and robotics class with Studuino device</li>
+            <li>Mentored "ninjas" aged 7 - 14 in Scratch and JavaScript concepts</li>
+            <li>Handled customer service relations between parents of ninjas and the franchise.</li>
+            <li>Managed daily operations of franchise by performing duties</li>
+          </ul>
+        </div>
+      </div>
     </section>
     <!--Tools/Technologies Section-->
     <section class = "technologies">
@@ -121,6 +149,7 @@
         <i class="devicon-latex-original icon-size"></i>
 
         <i class="devicon-html5-plain-wordmark icon-size"></i>
+        <i class="devicon-css3-plain-wordmark icon-size"></i>
         <i class="devicon-javascript-plain icon-size"></i>
         <i class="devicon-jquery-plain-wordmark icon-size"></i>
         <i class="devicon-react-original-wordmark icon-size"></i>

@@ -17,7 +17,6 @@ body {
     color: black;
 }
 
-
   /* Headings */
   
   .section-heading {
@@ -103,12 +102,12 @@ body {
       font-size: 45px;
       padding: 0px;
       width: 10ch;
+      right: 35%;
       position: relative;
-      right: 500px;
       font-family: 'Electrolize', sans-serif;
     }
     .icons {
-      margin: 0px 200px 0px 200px;
+      margin: 0px 175px 0px 175px;
     }
     .icon-size{
       color: #b0bbdc;
@@ -117,7 +116,42 @@ body {
     }
     /* Experience Section */
     .experience{
-      margin-top: 40px;
+      margin-top: 5%;
+    }
+    #experiences{
+      position: relative;
+      top: 1000px;
+    }
+    .job{ 
+      background-color: #7d88a9;
+      color: #b0bbdc;
+      margin: 3%;
+      width: 60%;
+      border-radius: 25px;
+      padding: 0px 0px 0px 3%;
+    }
+    #titleJ{
+      text-align: left;
+      position: relative;
+      top: 0.5rem;
+    }
+    #resume{
+      text-align: left;
+      position: relative;
+      bottom: 2.5em;
+      font-size: 1em;
+    }
+    #dates{
+      text-align: right;
+      position: relative;
+      bottom: 2em;
+      right: 1em;
+    }
+    .right{
+      margin-left: 38%;
+    }
+    #datascan{
+      margin-top: 0%;
     }
     /* Responsive Type Effect */
     .wrapper {
