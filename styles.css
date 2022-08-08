@@ -164,7 +164,7 @@ body {
   .big-heading {
     margin: 5% 0% 5% 20%;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    width: 41ch;
+    width: 45ch;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
