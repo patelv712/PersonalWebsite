@@ -112,9 +112,9 @@ body {
     }
     .icons {
       margin: 0% 15% 0% 15%;
+      color: #b0bbdc;
     }
     .icon-size{
-      color: #b0bbdc;
       font-size: 100px;
       margin: 0.2em;
     }
@@ -139,6 +139,11 @@ body {
       text-align: left;
       position: relative;
       bottom: 2.5em;
+      font-size: 1em;
+    }
+    #bullet{
+      text-align: left;
+      position: relative;
       font-size: 1em;
     }
     #dates{

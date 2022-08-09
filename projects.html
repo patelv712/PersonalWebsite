@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,17 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link href="projectstyles.css" rel = "stylesheet" type="text/css">
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/da7caf5c5d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -27,34 +30,101 @@
 </head>
 <body>
   <!--Top Links section-->
-    <section class="toolbar" id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-sm navbar-light" style="padding-bottom:25px;">
-          <a class="navbar-brand" id="me" href="">Varun Patel</a>
-          <!--different screen size nav button-->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto" id="links">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Projects</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </section>
+  <section class="toolbar" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-sm navbar-light" style="padding-bottom:25px;">
+        <i class="fa-solid fa-laptop-code fa-3x laptop"></i>
+        <a class="navbar-brand">Varun Patel</a>
+        <!--different screen size nav button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" id="links">
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
 
     <!--Project 1 Section-->
-    <section class = "Project 1">
+  <section class = "Project">
+    <div class = "info">
+      <div id="proj1" class = "name">
+        <h1>Project 1: YouToFy</h1>
+        <a href="https://github.com/patelv712/patelv712.github.io">
+           <i class="devicon-github-original proj-icon-size link"></i>
+        </a>
+      </div>
+      <div class = "skills">
+        <i class="devicon-react-original-wordmark proj-icon"></i>
+        <i class="devicon-nodejs-plain-wordmark proj-icon"></i>
+        <i class="devicon-express-original proj-icon"></i>
+        <i class="devicon-java-plain-wordmark proj-icon"></i> 
+        <i class="devicon-jquery-plain-wordmark proj-icon"></i>
+        <i class="devicon-bootstrap-plain proj-icon"></i> 
+        <i class="devicon-git-plain proj-icon" ></i> 
+      </div>
+    </div>
+    <div class = "row description">
+        <div id="bullet" class = "col col-md-6">
+          <h4>About</h1>
+          <ul>
+            <li>In Progress</li>
+          </ul>
+          <h4>Future Features</h1>
+            <ul>
+              <li>In Progress</li>
+            </ul>
+        </div>
+        <div class = "col col-md-6 pics">
+          <a href="index.html">Still in Progress</a>
+        </div>
+     </div>
     </section>
-    <section class = "Project 2">
-    </section>
+
+    <section class = "Project projNext">
+      <div class = "info">
+       <div id="proj2" class = "name">
+         <h1>Project 2: Personal Website</h1>
+         <a href="https://github.com/patelv712/patelv712.github.io">
+            <i class="devicon-github-original proj-icon link"></i>
+         </a>
+       </div>
+       <div class = "skills">
+        <i class="devicon-html5-plain-wordmark proj-icon"></i>
+        <i class="devicon-css3-plain-wordmark proj-icon"></i> 
+        <i class="devicon-javascript-plain proj-icon"></i>
+        <i class="devicon-jquery-plain-wordmark proj-icon"></i>
+        <i class="devicon-bootstrap-plain proj-icon"></i> 
+        <i class="devicon-git-plain proj-icon" ></i> 
+       </div>
+     </div>
+     <div class = "row description">
+         <div id="bullet" class = "col col-md-6">
+           <h4>About</h1>
+           <ul>
+             <li>The Website that you are on is one of my first web-development projects!</li>
+             <li>I used bootstrap and raw html/css/js to build each page</li>
+           </ul>
+           <h4>Future Features</h1>
+             <ul>
+               <li>In the future I plan to add better color schemes and blend each section</li>
+               <li>I plan for possibility of using a better framework such as React to manage the site</li>
+             </ul>
+         </div>
+         <div class = "col col-md-6 pics">
+           <a href="index.html">Click to go back to About page</a>
+         </div>
+      </div>
+     </section>
     <section class = "Project 3">
     </section>
 
