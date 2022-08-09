@@ -40,6 +40,14 @@ body{
 .link{
     color: #b0bbdc;
 }
+.icons2{
+    position: relative;
+    left: 2rem;
+}
+.icons3{
+    position: relative;
+    left: 0.5rem;
+}
 #bullet{
     padding-left: 2rem;
 }
@@ -54,4 +62,9 @@ body{
     padding: 1rem;
     align-items: center;
     margin: 0 32rem;
+}
+.vids{
+    position: relative;
+    top: 10%;
+    left: 13%;
 }
